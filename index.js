@@ -31,8 +31,8 @@ app.post('/save-subscription', async (req, res) => {
 
 const vapidKeys = {
   publicKey:
-    'BJ5IxJBWdeqFDJTvrZ4wNRu7UY2XigDXjgiUBYEYVXDudxhEs0ReOJRBcBHsPYgZ5dyV8VjyqzbQKS8V7bUAglk',
-  privateKey: 'ERIZmc5T5uWGeRxedxu92k3HnpVwy_RCnQfgek1x2Y4',
+    'Your_Public_Key',
+  privateKey: 'Your_Private_Key',
 }
 //setting our previously generated VAPID keys
 webpush.setVapidDetails(
